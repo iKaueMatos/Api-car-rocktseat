@@ -9,7 +9,6 @@ class UsersTokensRepository implements IUsersTokensRepository {
   private repository: Repository<UserTokens>;
 
   constructor() {
-    /* instancia nosso repositorio */
     this.repository = getRepository(UserTokens);
   }
 
